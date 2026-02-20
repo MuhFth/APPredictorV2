@@ -964,22 +964,6 @@ plotly >= 5.17.0
 joblib >= 1.3.0
     """, language="text")
 
-    st.markdown("### 📧 Support & Feedback")
-    st.markdown("""
-        <div style='background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
-        padding: 1.5rem; border-radius: 12px; border-left: 5px solid #2563eb;
-        box-shadow: 0 4px 10px rgba(37,99,235,0.15);'>
-            <h4 style='margin-top: 0; color: #1e3a8a; font-weight: 700;'>
-                💬 Jika Anda memiliki pertanyaan atau masukan, silakan hubungi:
-            </h4>
-            <ul style='margin: 0; padding-left: 1.5rem; color: #1e40af; line-height: 2;'>
-                <li>📧 <b>Email:</b> support@example.com</li>
-                <li>🌐 <b>Website:</b> https://example.com</li>
-                <li>📱 <b>Phone:</b> +62 XXX-XXXX-XXXX</li>
-            </ul>
-        </div>
-    """, unsafe_allow_html=True)
-
 # ======================================================
 # FOOTER
 # ======================================================
