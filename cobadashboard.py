@@ -929,47 +929,6 @@ elif menu == "ℹ️ Informasi Model":
             </div>
         """, unsafe_allow_html=True)
 
-    st.markdown("### 📜 Aturan Akademik")
-    st.markdown("""
-        <div style='background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%);
-        padding: 1.5rem; border-radius: 12px; border-left: 5px solid #ea580c;
-        box-shadow: 0 4px 10px rgba(234,88,12,0.15);'>
-            <h4 style='margin-top: 0; color: #7c2d12; font-weight: 700;'>🎓 Sistem Penilaian:</h4>
-
-            <div style='margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.85); border-radius: 8px; border: 1px solid rgba(17,153,142,0.3);'>
-                <h5 style='margin: 0; color: #065f46; font-weight: 700;'>🌟 Grade A (≥ 90)</h5>
-                <ul style='margin: 0.5rem 0; padding-left: 1.5rem; color: #064e3b; line-height: 1.8;'>
-                    <li>Nilai Internal minimum ≥ 25</li>
-                    <li>Kehadiran ≥ 85%</li>
-                    <li>Skor Tugas ≥ 25</li>
-                </ul>
-            </div>
-
-            <div style='margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.85); border-radius: 8px; border: 1px solid rgba(79,172,254,0.3);'>
-                <h5 style='margin: 0; color: #1e3a8a; font-weight: 700;'>👍 Grade B (80–89)</h5>
-                <ul style='margin: 0.5rem 0; padding-left: 1.5rem; color: #1e40af; line-height: 1.8;'>
-                    <li>Nilai Internal minimum ≥ 20</li>
-                    <li>Atau tidak memenuhi semua syarat Grade A</li>
-                </ul>
-            </div>
-
-            <div style='margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.85); border-radius: 8px; border: 1px solid rgba(247,112,98,0.3);'>
-                <h5 style='margin: 0; color: #831843; font-weight: 700;'>🙂 Grade C (65–79)</h5>
-                <ul style='margin: 0.5rem 0; padding-left: 1.5rem; color: #9d174d; line-height: 1.8;'>
-                    <li>Nilai Internal minimum ≥ 15</li>
-                    <li>Atau tidak memenuhi syarat Grade B</li>
-                </ul>
-            </div>
-
-            <div style='margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.85); border-radius: 8px; border: 1px solid rgba(252,74,26,0.3);'>
-                <h5 style='margin: 0; color: #7f1d1d; font-weight: 700;'>⚠️ Grade D (&lt; 65)</h5>
-                <ul style='margin: 0.5rem 0; padding-left: 1.5rem; color: #991b1b; line-height: 1.8;'>
-                    <li>Nilai Internal minimum &lt; 15</li>
-                </ul>
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
-
     st.markdown("### 📋 Daftar Fitur Lengkap")
     features_detail = pd.DataFrame({
         "No": range(1, len(FEATURES) + 1),
